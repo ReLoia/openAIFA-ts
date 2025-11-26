@@ -1,0 +1,27 @@
+{
+  "name": "openaifa-ts",
+  "version": "1.0.0",
+  "description": "Unofficial TypeScript client for AIFA API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "aifa",
+    "italy",
+    "medicines",
+    "api"
+  ],
+  "author": "reloia",
+  "license": "ISC",
+  "dependencies": {
+    "ofetch": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  }
+}
