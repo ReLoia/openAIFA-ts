@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "prepare": "npm run build"
   },
   "keywords": [
     "aifa",
