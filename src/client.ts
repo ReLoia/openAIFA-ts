@@ -4,9 +4,9 @@ import { promisify } from 'node:util';
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 import * as os from 'node:os';
-import { AuthManager } from './auth';
-import { AifaContainerInfo, AifaContainerInfoResponse, AifaMedicine, DatabaseVersion } from './types';
-import { API_BASE_URL } from "./constants";
+import { AuthManager } from './auth.js';
+import { AifaContainerInfo, AifaContainerInfoResponse, AifaMedicine, DatabaseVersion } from './types.js';
+import { API_BASE_URL } from "./constants.js";
 
 const gunzip = promisify(zlib.gunzip);
 

@@ -1,6 +1,6 @@
 import { ofetch } from 'ofetch';
-import { API_BASE_URL } from "./constants";
-import { AifaAuthResponse } from './index';
+import { API_BASE_URL } from "./constants.js";
+import { AifaAuthResponse } from "./index.js";
 
 export class AuthManager {
   private basicToken: string;
